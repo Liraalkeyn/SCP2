@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\Lemon\\Desktop\\SCP2\\SCP2\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
       "Id": "C:\\Users\\Lemon\\Desktop\\SCP2\\SCP2\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
@@ -243,6 +247,94 @@
     {
       "Id": "C:\\Users\\Lemon\\Desktop\\SCP2\\SCP2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Lemon\\Desktop\\SCP2\\SCP2\\wwwroot\\source\\Authentication\\Authentication.svg",
+      "PackagePath": "staticwebassets\\source\\Authentication\\Authentication.svg"
+    },
+    {
+      "Id": "C:\\Users\\Lemon\\Desktop\\SCP2\\SCP2\\wwwroot\\source\\Helvetica Font\\helvetica_bold.otf",
+      "PackagePath": "staticwebassets\\source\\Helvetica Font\\helvetica_bold.otf"
+    },
+    {
+      "Id": "C:\\Users\\Lemon\\Desktop\\SCP2\\SCP2\\wwwroot\\source\\Helvetica Font\\helvetica_boldoblique.otf",
+      "PackagePath": "staticwebassets\\source\\Helvetica Font\\helvetica_boldoblique.otf"
+    },
+    {
+      "Id": "C:\\Users\\Lemon\\Desktop\\SCP2\\SCP2\\wwwroot\\source\\Helvetica Font\\helvetica_cyr_boldoblique.ttf",
+      "PackagePath": "staticwebassets\\source\\Helvetica Font\\helvetica_cyr_boldoblique.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Lemon\\Desktop\\SCP2\\SCP2\\wwwroot\\source\\Helvetica Font\\helvetica_cyr_oblique.ttf",
+      "PackagePath": "staticwebassets\\source\\Helvetica Font\\helvetica_cyr_oblique.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Lemon\\Desktop\\SCP2\\SCP2\\wwwroot\\source\\Helvetica Font\\helvetica_light.otf",
+      "PackagePath": "staticwebassets\\source\\Helvetica Font\\helvetica_light.otf"
+    },
+    {
+      "Id": "C:\\Users\\Lemon\\Desktop\\SCP2\\SCP2\\wwwroot\\source\\Helvetica Font\\helvetica_lightoblique.otf",
+      "PackagePath": "staticwebassets\\source\\Helvetica Font\\helvetica_lightoblique.otf"
+    },
+    {
+      "Id": "C:\\Users\\Lemon\\Desktop\\SCP2\\SCP2\\wwwroot\\source\\Helvetica Font\\helvetica_oblique.otf",
+      "PackagePath": "staticwebassets\\source\\Helvetica Font\\helvetica_oblique.otf"
+    },
+    {
+      "Id": "C:\\Users\\Lemon\\Desktop\\SCP2\\SCP2\\wwwroot\\source\\Helvetica Font\\helvetica_regular.otf",
+      "PackagePath": "staticwebassets\\source\\Helvetica Font\\helvetica_regular.otf"
+    },
+    {
+      "Id": "C:\\Users\\Lemon\\Desktop\\SCP2\\SCP2\\wwwroot\\source\\PageOne\\ArrowLeft.svg",
+      "PackagePath": "staticwebassets\\source\\PageOne\\ArrowLeft.svg"
+    },
+    {
+      "Id": "C:\\Users\\Lemon\\Desktop\\SCP2\\SCP2\\wwwroot\\source\\PageOne\\ArrowRight.svg",
+      "PackagePath": "staticwebassets\\source\\PageOne\\ArrowRight.svg"
+    },
+    {
+      "Id": "C:\\Users\\Lemon\\Desktop\\SCP2\\SCP2\\wwwroot\\source\\PageOne\\FirstBlockBack.svg",
+      "PackagePath": "staticwebassets\\source\\PageOne\\FirstBlockBack.svg"
+    },
+    {
+      "Id": "C:\\Users\\Lemon\\Desktop\\SCP2\\SCP2\\wwwroot\\source\\PageOne\\GalleryPhotoOne.svg",
+      "PackagePath": "staticwebassets\\source\\PageOne\\GalleryPhotoOne.svg"
+    },
+    {
+      "Id": "C:\\Users\\Lemon\\Desktop\\SCP2\\SCP2\\wwwroot\\source\\PageOne\\GalleryPhotoTwo.svg",
+      "PackagePath": "staticwebassets\\source\\PageOne\\GalleryPhotoTwo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Lemon\\Desktop\\SCP2\\SCP2\\wwwroot\\source\\PageOne\\IntroductionPhoto.svg",
+      "PackagePath": "staticwebassets\\source\\PageOne\\IntroductionPhoto.svg"
+    },
+    {
+      "Id": "C:\\Users\\Lemon\\Desktop\\SCP2\\SCP2\\wwwroot\\source\\PageOne\\Logo.svg",
+      "PackagePath": "staticwebassets\\source\\PageOne\\Logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Lemon\\Desktop\\SCP2\\SCP2\\wwwroot\\source\\PageOne\\SiteLogo.svg",
+      "PackagePath": "staticwebassets\\source\\PageOne\\SiteLogo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Lemon\\Desktop\\SCP2\\SCP2\\wwwroot\\source\\PageOne\\StageOne.svg",
+      "PackagePath": "staticwebassets\\source\\PageOne\\StageOne.svg"
+    },
+    {
+      "Id": "C:\\Users\\Lemon\\Desktop\\SCP2\\SCP2\\wwwroot\\source\\PageOne\\StageThree.svg",
+      "PackagePath": "staticwebassets\\source\\PageOne\\StageThree.svg"
+    },
+    {
+      "Id": "C:\\Users\\Lemon\\Desktop\\SCP2\\SCP2\\wwwroot\\source\\PageOne\\StageTwo.svg",
+      "PackagePath": "staticwebassets\\source\\PageOne\\StageTwo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Lemon\\Desktop\\SCP2\\SCP2\\wwwroot\\source\\PageSCP\\035.svg",
+      "PackagePath": "staticwebassets\\source\\PageSCP\\035.svg"
+    },
+    {
+      "Id": "C:\\Users\\Lemon\\Desktop\\SCP2\\SCP2\\wwwroot\\source\\PageTwo\\General information.svg",
+      "PackagePath": "staticwebassets\\source\\PageTwo\\General information.svg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SCP2.Microsoft.AspNetCore.StaticWebAssets.props",

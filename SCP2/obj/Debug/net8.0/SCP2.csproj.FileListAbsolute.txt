@@ -232,3 +232,4 @@ C:\Users\Lemon\Desktop\SCP2\SCP2\obj\Debug\net8.0\refint\SCP2.dll
 C:\Users\Lemon\Desktop\SCP2\SCP2\obj\Debug\net8.0\SCP2.pdb
 C:\Users\Lemon\Desktop\SCP2\SCP2\obj\Debug\net8.0\SCP2.genruntimeconfig.cache
 C:\Users\Lemon\Desktop\SCP2\SCP2\obj\Debug\net8.0\ref\SCP2.dll
+C:\Users\Lemon\Desktop\SCP2\SCP2\obj\Debug\net8.0\SCP2.sourcelink.json

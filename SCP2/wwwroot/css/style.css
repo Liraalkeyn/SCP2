@@ -1,0 +1,769 @@
+/* Общие параметры для всех страниц */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Общие параметры для всех страниц - конец*/
+
+/* Аутентификация */
+
+#FirstBody {
+  min-width: 100%;
+  min-height: 100vh;
+  background-color: black;
+}
+
+#FirstMain {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  max-width: 1600px;
+  min-height: 100vh;
+}
+
+/* Блок под основным блоком чтобы бек не был монолитно черным */
+
+#support {
+  display: flex;
+  max-width: 1600px;
+  min-height: 900px;
+  background-color: rgb(255, 255, 255);
+}
+
+/* Блок под основным блоком чтобы бек не был монолитно черным - конец*/
+
+#MainAuthentication {
+  display: flex;
+  min-width: 1600px;
+  min-height: 100%;
+  background-image: url("~/source/Authentication/Authentication.svg");
+}
+
+#MainAuthenticationLeft {
+  display: flex;
+  align-items: center;
+  min-width: 1000px;
+  min-height: 100%;
+ /* background-color: orange; */
+}
+
+ #MainAuthenticationLeft h1 {
+  margin-left: 5%;
+  color: white;
+  font-size: 104px;
+  font-weight: 300;
+  font-family: 'Helvetica light'; 
+  src: url("~/Helvetica Font/helvetica_light.otf");  
+} 
+
+#MainAuthenticationRight {
+  display: flex;
+  align-items: center;
+  min-width: 600px;
+  min-height: 100%;
+/*   background-color: red; */
+}
+
+#MainAuthenticationRightAuth {
+  min-width: 600px;
+  min-height: 500px;
+/*   background-color: green; */
+}
+
+/* стили для label */
+.text-field__label {
+  display: block;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 50%;
+
+  color: white;
+  font-size: 35px;
+  font-weight: 300;
+  font-family: 'Helvetica light'; 
+  src: url("~/Helvetica Font/helvetica_light.otf");  
+  
+}
+/* стили для input */
+.text-field__input {
+  display: block;
+  width: 450px;
+  height: 95px;
+
+  color: white;
+  font-size: 25px;
+  font-weight: 300;
+  font-family: 'Helvetica light'; 
+  src: url("~/Helvetica Font/helvetica_light.otf");  
+
+  color: #212529;
+  background-color: #fff;
+  border: 1px solid #ffffff;
+  border-radius: 80px;
+
+  text-align: center;
+}
+
+#EnterAuth {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.text-field button {
+    display: block;
+    width: 150px;
+    height: 50px;
+  
+    font-size: 26px;
+    font-weight: 300;
+    font-family: 'Helvetica light'; 
+    src: url("/Helvetica Font/helvetica_light.otf");  
+  
+    color: #212529;
+    background-color: #fff;
+    border: none;
+    border-radius: 80px;
+
+    margin-left: 45%;
+}
+
+#EnterAuth:hover .qwer {
+  color: white;
+  transition: 0.35s;
+}
+
+#EnterAuth:hover  {
+  background-color: #ffffff00;
+  transition: 0.35s;
+  cursor: pointer;
+}
+
+/* Аутентификация - конец*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Главная страница */
+
+#SecondBody {
+  min-width: 100%;
+  min-height: 100vh;
+  background-color: #0F0F0F;
+}
+
+/* Главная страница - шапка*/
+
+#SecondHeader {
+  display: flex;
+  margin: auto;
+  max-width: 1440px;
+  min-height: 80px;
+  color: white;
+}
+
+#SecondHeader img {
+  margin: auto;
+  margin-left: 1.5%;
+}
+
+#navlist {
+  display: block;
+  width: 100%;
+  float: center;
+  margin: auto;
+  margin-right: 1.5%;
+}
+
+#navlist a {
+  font-size: 24px;
+  font-weight: 300;
+  font-family: 'Helvetica light'; 
+  src: url("/Helvetica Font/helvetica_light.otf"); 
+
+    text-decoration: none;
+    color: white;
+}
+
+#navlist ul {
+  list-style: none;
+  display: flex;
+  float: right;
+}
+
+#navlist li:hover {
+cursor: pointer;
+}
+
+#navlist li + li:before{
+    content: " | ";
+    padding: 0 10px;
+}
+
+/* Главная страница - шапка - конец*/
+
+/* Главная страница - основная часть*/
+
+#SecondMain {
+  display: block;
+  margin: auto;
+  max-width: 1440px;
+  min-height: 3640px;
+}
+
+/* Блок под основным блоком чтобы бек не был монолитно черным */
+
+#firstBlockSupport {
+  max-width: 100%;
+  min-height: 779px;
+  background-color: white;
+}
+
+/* Блок под основным блоком чтобы бек не был монолитно черным - конец*/
+
+/* Первый блок */
+
+#firstBlock {
+  display: block;
+  max-width: 100%;
+  min-height: 779px;
+  background-image: url("~/source/PageOne/FirstBlockBack.svg");
+}
+
+#firstBlockOpen {
+  display: flex;
+  max-width: 100%;
+  min-height: 699px;
+}
+
+#firstBlockOpenLeft {
+  display: block;
+  min-width: 720px;
+  min-height: 699px;
+
+  text-align: center;
+}
+
+#firstBlockOpenLeft img {
+  margin-top: 10%;
+}
+
+#firstBlockOpenRight {
+  min-width: 720px;
+  min-height: 699px;
+}
+
+#firstBlockOpenRightText {
+  color: white;
+  margin-top: 20%;
+  inline-size: 580px;
+}
+
+#firstBlockOpenRight h1 {
+font-size: 128px;
+font-weight: 300;
+font-family: 'Helvetica light'; 
+src: url("/Helvetica Font/helvetica_light.otf"); 
+}
+
+#firstBlockOpenRight h3 {
+font-size: 24px;
+font-weight: 300;
+font-family: 'Helvetica light'; 
+src: url("/Helvetica Font/helvetica_light.otf"); 
+}
+
+/* Первый блок - конец*/
+
+/* Второй блок*/
+
+#MainSecond {
+  margin-top: 20px;
+  display: block;
+  margin: auto;
+  max-width: 1440px;
+  min-height: 2811px;
+  background-color: #0F0F0F;
+}
+
+/* Вступление */
+
+#Introduction {
+  display: flex;
+  max-width: 1340px;
+  min-height: 470px;
+ /* background-color: aqua; */ 
+  margin: auto;
+}
+
+#IntroductionPhoto {
+  display: block;
+  min-width: 690px;
+  min-height: 100%;
+  text-align: center;
+}
+
+#IntroductionPhoto img {
+  margin-top: 4.5%;
+}
+
+#IntroductionText {
+  display: block;
+  min-width: 650px;
+  min-height: 100%;
+}
+
+#IntroductionText h3 {
+  inline-size: 630px;
+  margin-top: 4.5%;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: 'Helvetica light'; 
+  src: url("/Helvetica Font/helvetica_light.otf");
+  color: white;
+}
+
+/* Вступление - конец*/
+
+/* Стадии */
+
+#Stage {
+  display: block;
+  max-width: 1284px;
+  max-height: 1721px;
+/* background-color: greenyellow; */
+  margin: auto;
+}
+
+#StageOne {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  max-width: 1100px;
+  min-height: 600px;
+  background-image: url("~/source/PageOne/StageOne.svg");
+}
+
+#StageTwo {
+  z-index: 2;
+  position: relative;
+  bottom: 70px;
+  left: 200px;
+  display: flex;
+  max-width: 1100px;
+  min-height: 600px;
+  background-image: url("~/source/PageOne/StageTwo.svg")
+}
+
+#StageThree {
+  z-index: 1;
+  position: relative;
+  bottom: 140px;
+  display: flex;
+  max-width: 1100px;
+  min-height: 600px;
+  background-image: url("~/source/PageOne/StageThree.svg")
+}
+
+.StageNumber {
+  display: block;
+  min-width: 550px;
+  min-height: 600px;
+  text-align: center;
+}
+
+.StageNumber h1 {
+  margin-top: 10%;
+  color: white;
+  font-size: 350px;
+  font-weight: 300;
+  font-family: 'Helvetica light'; 
+  src: url("/Helvetica Font/helvetica_light.otf"); 
+}
+
+.StageText {
+  display: block;
+  min-width: 550px;
+  min-height: 600px;
+  text-align: center;
+}
+
+.StageText h1 {
+  margin-top: 5%;
+  color: white;
+  font-size: 32px;
+  font-weight: 300;
+  font-family: 'Helvetica light'; 
+  src: url("/Helvetica Font/helvetica_light.otf"); 
+}
+
+.StageText hr {
+  margin-top: 5%;
+  margin-left: 9%;
+  width: 455px;
+  float: center;
+}
+
+.StageText ul {
+  margin-top: 5%;
+  margin-left: 6.5%;
+
+  list-style: none;
+  display: block;
+  text-align: left;
+}
+
+.StageText ul li {
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: 'Helvetica light'; 
+  src: url("/Helvetica Font/helvetica_light.otf");
+  margin-top: 1%;
+}
+
+.StageOtherOne h1 {
+  margin-top: 18%;
+}
+
+/* Стадии - конец*/
+
+/* Галерея */
+
+#Gallery {
+  display: block;
+  max-width: 1350px;
+  min-height: 540px;
+/*  background-color: rgb(223, 24, 24); */
+  margin: auto;  
+}
+
+#GalleryOpenText {
+  display: block;
+  max-width: 1350px;
+  min-height: 100px;
+/*  background-color: lightcoral; */
+  margin: auto;
+  text-align: center; 
+}
+
+#Gallery h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 300;
+  font-family: 'Helvetica light'; 
+  src: url("/Helvetica Font/helvetica_light.otf");
+}
+
+#GalleryAllPhoto {
+  display: flex;
+  max-width: 1350px;
+  min-height: 440px;
+/* background-color: rgb(85, 43, 43); */
+  margin: auto;  
+}
+
+#GalleryLeftArrow {
+  display: block;
+  min-width: 55px;
+  min-height: 440px;
+/*  background-color: rgb(20, 196, 29); */
+  float: left;    
+}
+
+.GalleryArrow img {
+margin-top: 320%;
+}
+
+.GalleryArrow img:hover {
+cursor: pointer;
+}
+
+#GalleryPhoto {
+  display: flex;
+  min-width: 1240px;
+  min-height: 440px;
+/* background-color: orange;  */
+}
+
+#GalleryRightArrow {
+  display: block;
+  min-width: 55px;
+  min-height: 440px;
+/*   background-color: rgb(20, 196, 29); */
+  float: right;    
+}
+
+.Photo {
+  display: block;
+  max-height: 340px;
+/* background-color: white; */
+}
+
+.Photo h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: 'Helvetica light'; 
+  src: url("/Helvetica Font/helvetica_light.otf");
+}
+
+/* Галерея - горизонтальный скролл*/
+
+#container {
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  }
+  
+  #container::-webkit-scrollbar {
+  display: none;
+  }
+
+  #Gallery_all {
+    width: 3720px;
+    display: flex;
+    flex: none;
+    }
+
+    #Gallery_all .Photo {
+      margin-top: 3%;
+      margin-left: 3%;
+margin-right: 3%;
+    }
+
+/* Галерея - горизонтальный скролл - конец*/
+
+/* Галерея - конец*/
+
+/* Второй блок - конец*/    
+
+/* Главная страница - основная часть - конец*/    
+
+/* Главная страница - конец*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Вторая страница */
+
+#ThirdBody {
+    min-width: 100%;
+    min-height: 100vh;
+    background-color: #0F0F0F;
+
+}
+
+#ThirdMain {
+  display: block;
+  margin: auto;
+  max-width: 1440px;
+  min-height: 3640px;
+/* background-color: red; */
+}
+
+/* Шаблон карточки-досье зоны */
+
+.Block {
+  position: relative;
+  z-index: 1;
+
+  display: flex;
+  margin: auto;
+  max-width: 1295px;
+  min-height: 380px;
+  background-color: #1A1A1A; 
+  margin-top: 3%;
+}
+
+.Block:hover {
+  border: 1px solid white;
+  cursor: pointer;
+  transition: 1.5s;
+}
+
+.BlockLeft {
+  min-width: 900px;
+  min-height: 100%;
+/*  background-color: #ffffff; */
+}
+
+.BlockLeftText {
+  /* max-width: 900px;
+  min-height: 92.8%; */
+
+  max-width: 100%;
+  min-height: 85%; 
+/*  background-color: blue; */
+
+  margin: 3.5%;
+}
+
+.BlockLeftText h1 {
+  color: white;
+  font-size: 64px;
+  font-weight: 300;
+  font-family: 'Helvetica light'; 
+  src: url("/Helvetica Font/helvetica_light.otf");
+  margin-top: 1%;
+}
+
+.BlockLeftText ul {
+  margin-left: 3.5%;
+  display: block; 
+}
+
+.BlockLeftText ul li {
+  color: white;
+  font-size: 32px;
+  font-weight: 300;
+  font-family: 'Helvetica light'; 
+  src: url("/Helvetica Font/helvetica_light.otf");
+  margin-top: 1%;
+  inline-size: 850px;
+}
+
+.BlockRight {
+  display: flex;
+  align-items: center;
+
+  min-width: 395px;
+  min-height: 100%;
+/*  background-color: #ffffff; */
+}
+
+.BlockRight img {
+  margin: auto;
+}
+
+/* Шаблон карточки-досье зоны - конец*/
+
+/* Вторая страница - конец*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Третья страница */
+
+#FourthBody {
+  min-width: 100%;
+  min-height: 100vh;
+  background-color: #0F0F0F;
+
+}
+
+#FourthMain {
+  display: block;
+  margin: auto;
+  max-width: 1440px;
+  min-height: 3640px;
+/* background-color: red; */
+}
+
+/* Шаблон карточки-описания scp */
+
+.SCPBlockLeft {
+min-width: 648px;
+min-height: 100%;
+}
+
+.SCPBlockLeftText {
+/* max-width: 900px;
+min-height: 92.8%; */
+
+max-width: 100%;
+min-height: 85%; 
+/*  background-color: blue; */
+
+margin: 3.5%;
+}
+
+.SCPBlockLeftText h1 {
+color: white;
+font-size: 64px;
+font-weight: 300;
+font-family: 'Helvetica light'; 
+src: url("/Helvetica Font/helvetica_light.otf");
+margin-top: 1%;
+}
+
+.SCPBlockLeftText ul {
+display: block;
+list-style: none;
+}
+
+.SCPBlockLeftText ul li {
+color: white;
+font-size: 32px;
+font-weight: 300;
+font-family: 'Helvetica light'; 
+src: url("/Helvetica Font/helvetica_light.otf");
+margin-top: 1%;
+
+inline-size: 598px;
+}
+
+.SCPBlockRight {
+min-width: 647px;
+min-height: 100%;
+background-image: url("source/PageSCP/035.svg");
+}
+
+.SCPBlockRight img {
+margin: auto;
+}
+
+/* Шаблон карточки-описания scp - конец*/
+
+/* Заблокированная карточка */
+
+
+
+
+/* Третья страница - конец*/
