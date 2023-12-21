@@ -61,7 +61,7 @@ body {
   font-size: 104px;
   font-weight: 300;
   font-family: 'Helvetica light'; 
-  src: url("../source/Helvetica Font/helvetica_light.otf");  
+  src: url("../source/Helvetica Font/helvetica_light.otf");
 } 
 
 #MainAuthenticationRight {
@@ -112,7 +112,7 @@ body {
   text-align: center;
 }
 
-#EnterAuth {
+.EnterAuth {
   text-decoration: none;
   color: rgb(0, 0, 0);
   text-align: center;

@@ -5,35 +5,118 @@
     ViewData["Title"] = "Log in";
 }
 
-<h1>Войдите в<br> систему фонда</h1>
-<div class="row">
-    <div class="col-md-4">
-        <section>
-            <form id="account" method="post">
-                <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
-                <div class="form-floating mb-3">
-                    <input asp-for="Input.Email" class="form-control text-field__input" autocomplete="username" aria-required="true" placeholder="name@example.com"/>
-                    <label asp-for="Input.Email" class="form-label text-field__label ">Email</label>
-                    <span asp-validation-for="Input.Email" class="text-danger"></span>
+<body id="FirstBody">
+
+<main id="FirstMain">
+    <div id="support">
+
+        <div id="MainAuthentication">
+            <div id="MainAuthenticationLeft">
+                <h1>Войдите в<br> систему фонда</h1>
+
+            </div>
+
+            <div id="MainAuthenticationRight">
+
+                <div id="MainAuthenticationRightAuth">
+
+                    <form method="post" class="text-field" id="account">
+                        <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+                        <input asp-for="Input.Email" class="form-control text-field__input" autocomplete="username" aria-required="true" placeholder="Д-р Харринг">
+                        <label asp-for="Input.Email" class="form-label text-field__label ">Email</label>
+
+                        <input asp-for="Input.Password" class="form-control text-field__input" autocomplete="current-password" aria-required="true" placeholder="password">
+                        <label asp-for="Input.Password" class="form-label text-field__label">Password</label>
+
+                        <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary EnterAuth">
+                            <p class="qwer">Вход</p></button>
+                    </form>
+
                 </div>
-                <div class="form-floating mb-3">
-                    <input asp-for="Input.Password" class="form-control text-field__input" autocomplete="current-password" aria-required="true" placeholder="password"/>
-                    <label asp-for="Input.Password" class="form-label text-field__label">Password</label>
-                    <span asp-validation-for="Input.Password" class="text-danger"></span>
-                </div>
-                <div class="checkbox mb-3">
-                    <label asp-for="Input.RememberMe" class="form-label">
-                        <input class="form-check-input" asp-for="Input.RememberMe"/>
-                        @Html.DisplayNameFor(m => m.Input.RememberMe)
-                    </label>
-                </div>
-                <div>
-                    <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary">Log in</button>
-                </div>
-            </form>
-        </section>
+
+            </div>
+
+        </div>
     </div>
-</div>
+
+</main>
+
+</body>
+
+@* <h1>Войдите в<br> систему фонда</h1> *@
+@* <div class="row"> *@
+@*     <div class="col-md-4"> *@
+@*         <section> *@
+@*             <form id="account" method="post"> *@
+@*                 <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div> *@
+@*                 <div class="form-floating mb-3"> *@
+@*                     <input asp-for="Input.Email" class="form-control text-field__input" autocomplete="username" aria-required="true" placeholder="name@example.com"/> *@
+@*                     <label asp-for="Input.Email" class="form-label text-field__label ">Email</label> *@
+@*                     <span asp-validation-for="Input.Email" class="text-danger"></span> *@
+@*                 </div> *@
+@*                 <div class="form-floating mb-3"> *@
+@*                     <input asp-for="Input.Password" class="form-control text-field__input" autocomplete="current-password" aria-required="true" placeholder="password"/> *@
+@*                     <label asp-for="Input.Password" class="form-label text-field__label">Password</label> *@
+@*                     <span asp-validation-for="Input.Password" class="text-danger"></span> *@
+@*                 </div> *@
+@*                 <div class="checkbox mb-3"> *@
+@*                     <label asp-for="Input.RememberMe" class="form-label"> *@
+@*                         <input class="form-check-input" asp-for="Input.RememberMe"/> *@
+@*                         @Html.DisplayNameFor(m => m.Input.RememberMe) *@
+@*                     </label> *@
+@*                 </div> *@
+@*                 <div> *@
+@*                     <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary">Log in</button> *@
+@*                 </div> *@
+@*             </form> *@
+@*         </section> *@
+@*     </div> *@
+@* </div> *@
+
+@* <!DOCTYPE html> *@
+@* <html> *@
+@* *@
+@* <head> *@
+@* <title>Зона 19</title> *@
+@* </head> *@
+@* *@
+@* <body id="FirstBody"> *@
+@* *@
+@* <main id="FirstMain"> *@
+@*     <div id="support"> *@
+@* *@
+@*         <div id="MainAuthentication"> *@
+@*             <div id="MainAuthenticationLeft"> *@
+@*                 <h1>Войдите в<br> систему фонда</h1> *@
+@* *@
+@*             </div> *@
+@* *@
+@*             <div id="MainAuthenticationRight"> *@
+@* *@
+@*                 <div id="MainAuthenticationRightAuth"> *@
+@* *@
+@*                     <form method="post" class="text-field" id="account"> *@
+@*                         <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div> *@
+@*                         <input asp-for="Input.Email" class="form-control text-field__input" autocomplete="username" aria-required="true" placeholder="Д-р Харринг"> *@
+@*                         <label asp-for="Input.Email" class="form-label text-field__label ">Email</label> *@
+@* *@
+@*                         <input asp-for="Input.Password" class="form-control text-field__input" autocomplete="current-password" aria-required="true" placeholder="password"> *@
+@*                         <label asp-for="Input.Password" class="form-label text-field__label">Password</label> *@
+@* *@
+@*                         <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary EnterAuth"> *@
+@*                             <p class="qwer">Вход</p></button> *@
+@*                     </form> *@
+@* *@
+@*                 </div> *@
+@* *@
+@*             </div> *@
+@* *@
+@*         </div> *@
+@*     </div> *@
+@* *@
+@* </main> *@
+@* *@
+@* </body> *@
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
