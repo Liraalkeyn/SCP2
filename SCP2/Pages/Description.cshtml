@@ -1,0 +1,67 @@
+﻿@page
+@model SCP2.Pages.Description
+
+@{
+    Layout = "Shared/_Layout";
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Зона 19</title>
+</head>
+
+<body id="ThirdBody">
+
+<main id="ThirdMain">
+    
+    <header id="SecondHeader">
+    
+        <img src="source/PageOne/Logo.svg">
+        
+        <div id="navlist">
+        
+                <ul>
+                    <li><a asp-page="./Index"><b>Главная</b></a></li>
+                
+                    <li><a asp-page="./Description">Подробнее</a></li>
+                
+                    <li><a asp-page="./Cards">Объекты на содержании</a></li>
+                </ul>
+        
+        </div> 
+    </header>
+    
+    <div class="Block">
+
+        <div class="BlockLeft">
+        
+            <div class="BlockLeftText">
+        
+                <h1>Общая информация</h1>
+        
+                <ul>
+                    <li>Дата основания</li>
+                    <li>Руководство комплекса</li>
+                    <li>Прикрытие</li>
+                    <li>Функции зоны</li>
+                    <li>Офисы и крылья</li>
+                </ul>
+        
+            </div>
+        
+        </div>
+        
+        <div class="BlockRight">
+        
+            <img src="source/PageTwo/General information.svg">
+        
+        </div>
+        
+    </div>
+    
+</main>
+    
+</body>
+</html>

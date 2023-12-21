@@ -4,10 +4,6 @@
     ViewData["Title"] = "Home page";
 }
 
-@* <head> *@
-@*     <link rel="stylesheet" href="~/css/style.css"> *@
-@* </head> *@
-
 <title>Зона 19</title>
 
 <div id="SecondMain" />
@@ -23,11 +19,11 @@
         <div id="navlist">
     
     <ul>
-        <li><a href="MainPage.html"><b>Главная</b></a></li>
+        <li><a asp-page="./Index"><b>Главная</b></a></li>
     
-        <li><a href="CardsDescription.html">Подробнее</a></li>
+        <li><a asp-page="./Description">Подробнее</a></li>
     
-        <li><a href="CardsSCP.html">Объекты на содержании</a></li>
+        <li><a asp-page="./Cards">Объекты на содержании</a></li>
     </ul>
     
         </div> 

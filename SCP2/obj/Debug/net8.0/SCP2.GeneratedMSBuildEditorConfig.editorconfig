@@ -190,6 +190,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Lemon/Desktop/SCP2/SCP2/Pages/Cards.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FyZHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lemon/Desktop/SCP2/SCP2/Pages/Description.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVzY3JpcHRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Lemon/Desktop/SCP2/SCP2/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

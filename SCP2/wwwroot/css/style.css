@@ -758,7 +758,7 @@ inline-size: 598px;
 .SCPBlockRight {
 min-width: 647px;
 min-height: 100%;
-background-image: url("source/PageSCP/035.svg");
+background-image: url("../source/PageSCP/035.svg");
 }
 
 .SCPBlockRight img {
