@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BNSVf83yrEqvN9OhC6cN283AnJOtMw+GvQqaT96YPts=",
+  "Hash": "MHAOUXlWp1L41EcRKvvoPwaTJigsTzoL72fvVyUJ8bk=",
   "Source": "SCP2",
   "BasePath": "_content/SCP2",
   "Mode": "Default",
@@ -1250,6 +1250,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Lemon\\Desktop\\SCP2\\SCP2\\wwwroot\\js\\script.js",
+      "SourceId": "SCP2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lemon\\Desktop\\SCP2\\SCP2\\wwwroot\\",
+      "BasePath": "_content/SCP2",
+      "RelativePath": "js/script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\script.js"
     },
     {
       "Identity": "C:\\Users\\Lemon\\Desktop\\SCP2\\SCP2\\wwwroot\\js\\site.js",
