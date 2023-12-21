@@ -1,4 +1,6 @@
-/* Общие параметры для всех страниц */
+/* Общие параметры для всех страниц 
+
+В CSS ФАЙЛАХ НЕ ПИШУТ ПУТИ  */
 
 * {
   margin: 0;
@@ -38,7 +40,7 @@
   display: flex;
   min-width: 1600px;
   min-height: 100%;
-  background-image: url("~/source/Authentication/Authentication.svg");
+  background-image: url("../source/Authentication/Authentication.svg");
 }
 
 #MainAuthenticationLeft {
@@ -55,7 +57,7 @@
   font-size: 104px;
   font-weight: 300;
   font-family: 'Helvetica light'; 
-  src: url("~/Helvetica Font/helvetica_light.otf");  
+  src: url("../source/Helvetica Font/helvetica_light.otf");  
 } 
 
 #MainAuthenticationRight {
@@ -83,7 +85,7 @@
   font-size: 35px;
   font-weight: 300;
   font-family: 'Helvetica light'; 
-  src: url("~/Helvetica Font/helvetica_light.otf");  
+  src: url("../source/Helvetica Font/helvetica_light.otf");  
   
 }
 /* стили для input */
@@ -96,7 +98,7 @@
   font-size: 25px;
   font-weight: 300;
   font-family: 'Helvetica light'; 
-  src: url("~/Helvetica Font/helvetica_light.otf");  
+  src: url("../source/Helvetica Font/helvetica_light.otf");  
 
   color: #212529;
   background-color: #fff;
@@ -120,7 +122,7 @@
     font-size: 26px;
     font-weight: 300;
     font-family: 'Helvetica light'; 
-    src: url("/Helvetica Font/helvetica_light.otf");  
+    src: url("../source/Helvetica Font/helvetica_light.otf");  
   
     color: #212529;
     background-color: #fff;
@@ -195,7 +197,7 @@
   font-size: 24px;
   font-weight: 300;
   font-family: 'Helvetica light'; 
-  src: url("/Helvetica Font/helvetica_light.otf"); 
+  src: url("../source/Helvetica Font/helvetica_light.otf"); 
 
     text-decoration: none;
     color: white;
@@ -243,7 +245,7 @@ cursor: pointer;
   display: block;
   max-width: 100%;
   min-height: 779px;
-  background-image: url("~/source/PageOne/FirstBlockBack.svg");
+  background-image: url("../source/PageOne/FirstBlockBack.svg");
 }
 
 #firstBlockOpen {
@@ -279,14 +281,14 @@ cursor: pointer;
 font-size: 128px;
 font-weight: 300;
 font-family: 'Helvetica light'; 
-src: url("/Helvetica Font/helvetica_light.otf"); 
+src: url("../source/Helvetica Font/helvetica_light.otf"); 
 }
 
 #firstBlockOpenRight h3 {
 font-size: 24px;
 font-weight: 300;
 font-family: 'Helvetica light'; 
-src: url("/Helvetica Font/helvetica_light.otf"); 
+src: url("../source/Helvetica Font/helvetica_light.otf"); 
 }
 
 /* Первый блок - конец*/
@@ -335,7 +337,7 @@ src: url("/Helvetica Font/helvetica_light.otf");
   font-size: 24px;
   font-weight: 300;
   font-family: 'Helvetica light'; 
-  src: url("/Helvetica Font/helvetica_light.otf");
+  src: url("../source/Helvetica Font/helvetica_light.otf");
   color: white;
 }
 
@@ -357,7 +359,7 @@ src: url("/Helvetica Font/helvetica_light.otf");
   display: flex;
   max-width: 1100px;
   min-height: 600px;
-  background-image: url("~/source/PageOne/StageOne.svg");
+  background-image: url("../source/PageOne/StageOne.svg");
 }
 
 #StageTwo {
@@ -368,7 +370,7 @@ src: url("/Helvetica Font/helvetica_light.otf");
   display: flex;
   max-width: 1100px;
   min-height: 600px;
-  background-image: url("~/source/PageOne/StageTwo.svg")
+  background-image: url("../source/PageOne/StageTwo.svg")
 }
 
 #StageThree {
@@ -378,7 +380,7 @@ src: url("/Helvetica Font/helvetica_light.otf");
   display: flex;
   max-width: 1100px;
   min-height: 600px;
-  background-image: url("~/source/PageOne/StageThree.svg")
+  background-image: url("../source/PageOne/StageThree.svg")
 }
 
 .StageNumber {
@@ -394,7 +396,7 @@ src: url("/Helvetica Font/helvetica_light.otf");
   font-size: 350px;
   font-weight: 300;
   font-family: 'Helvetica light'; 
-  src: url("/Helvetica Font/helvetica_light.otf"); 
+  src: url("../source/Helvetica Font/helvetica_light.otf"); 
 }
 
 .StageText {
@@ -410,7 +412,7 @@ src: url("/Helvetica Font/helvetica_light.otf");
   font-size: 32px;
   font-weight: 300;
   font-family: 'Helvetica light'; 
-  src: url("/Helvetica Font/helvetica_light.otf"); 
+  src: url("../source/Helvetica Font/helvetica_light.otf"); 
 }
 
 .StageText hr {
@@ -434,7 +436,7 @@ src: url("/Helvetica Font/helvetica_light.otf");
   font-size: 24px;
   font-weight: 300;
   font-family: 'Helvetica light'; 
-  src: url("/Helvetica Font/helvetica_light.otf");
+  src: url("../source/Helvetica Font/helvetica_light.otf");
   margin-top: 1%;
 }
 
@@ -468,7 +470,7 @@ src: url("/Helvetica Font/helvetica_light.otf");
   font-size: 50px;
   font-weight: 300;
   font-family: 'Helvetica light'; 
-  src: url("/Helvetica Font/helvetica_light.otf");
+  src: url("../source/Helvetica Font/helvetica_light.otf");
 }
 
 #GalleryAllPhoto {
@@ -521,7 +523,7 @@ cursor: pointer;
   font-size: 20px;
   font-weight: 300;
   font-family: 'Helvetica light'; 
-  src: url("/Helvetica Font/helvetica_light.otf");
+  src: url("../source/Helvetica Font/helvetica_light.otf");
 }
 
 /* Галерея - горизонтальный скролл*/
@@ -634,7 +636,7 @@ margin-right: 3%;
   font-size: 64px;
   font-weight: 300;
   font-family: 'Helvetica light'; 
-  src: url("/Helvetica Font/helvetica_light.otf");
+  src: url("../source/Helvetica Font/helvetica_light.otf");
   margin-top: 1%;
 }
 
@@ -648,7 +650,7 @@ margin-right: 3%;
   font-size: 32px;
   font-weight: 300;
   font-family: 'Helvetica light'; 
-  src: url("/Helvetica Font/helvetica_light.otf");
+  src: url("../source/Helvetica Font/helvetica_light.otf");
   margin-top: 1%;
   inline-size: 850px;
 }
@@ -729,7 +731,7 @@ color: white;
 font-size: 64px;
 font-weight: 300;
 font-family: 'Helvetica light'; 
-src: url("/Helvetica Font/helvetica_light.otf");
+src: url("../source/Helvetica Font/helvetica_light.otf");
 margin-top: 1%;
 }
 
@@ -743,7 +745,7 @@ color: white;
 font-size: 32px;
 font-weight: 300;
 font-family: 'Helvetica light'; 
-src: url("/Helvetica Font/helvetica_light.otf");
+src: url("../source/Helvetica Font/helvetica_light.otf");
 margin-top: 1%;
 
 inline-size: 598px;
